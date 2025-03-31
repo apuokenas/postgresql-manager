@@ -40,12 +40,11 @@ chmod +x *.command
 cp *.command "/Applications/PostgreSQL Manager/"
 ```
 
-
 ## Usage
 
 ### Starting the PostgreSQL Server
 
-Double-click start_postgres.command:
+Double-click [start_postgres.command](https://github.com/apuokenas/postgresql-manager/blob/master/start_postgres.command):
 
 - Opens a dedicated Terminal window
 - Shows real-time server output
@@ -53,7 +52,7 @@ Double-click start_postgres.command:
 
 ### Checking PostgreSQL Status
 
-Double-click check_postgres.command:
+Double-click [check_postgres.command](https://github.com/apuokenas/postgresql-manager/blob/master/check_postgres.command):
 
 - Shows whether PostgreSQL is currently running
 - Provides status information and exit code interpretation
@@ -61,7 +60,7 @@ Double-click check_postgres.command:
 
 ### Stopping the PostgreSQL Server
 
-Double-click stop_postgres.command:
+Double-click [stop_postgres.command](https://github.com/apuokenas/postgresql-manager/blob/master/stop_postgres.command):
 
 - Gracefully shuts down the running PostgreSQL server
 - Shows shutdown status and confirmation
@@ -106,7 +105,7 @@ Contributions are welcome! Please feel free to submit pull requests with:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/apuokenas/postgresql-manager/blob/master/LICENSE) file for details.
 
 ## Author
 
