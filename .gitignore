@@ -1,0 +1,59 @@
+# Temporary script files
+.postgres_scripts/
+*.sh.tmp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# PostgreSQL logs and data
+*.log
+logfile
+pg_stat_tmp/
+pg_log/
+postgresql*.log
+
+# Editor files
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*.bak
+*.backup
+*~.nib
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Compiled files
+*.o
+*.so
+*.dylib
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Personal configuration overrides
+config.local.sh
+paths.local.sh
