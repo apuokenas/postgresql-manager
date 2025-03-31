@@ -90,7 +90,7 @@ PG_DATADIR="/usr/local/var/postgresql@${PG_VERSION}" # Path to data directory
 Common issues:
 
 - **"PostgreSQL binaries not found"**: Verify your installation path or update the `PG_BINDIR` variable
-- **"PostgreSQL is already running"**: Use check_postgres.command to verify status before starting
+- **"PostgreSQL is already running"**: Use [check_postgres.command](https://github.com/apuokenas/postgresql-manager/blob/master/check_postgres.command) to verify status before starting
 - **"PostgreSQL is not currently running"**: Server must be running before you can stop it
 - **macOS security warnings**: Right-click the script and select "Open" for first-time execution
 
